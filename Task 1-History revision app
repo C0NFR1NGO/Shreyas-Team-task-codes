@@ -1,0 +1,43 @@
+"""
+"""
+y=1
+while y==1:
+    import time
+    print('Welcome to the History revision app')
+    time.sleep(1)
+    print('Todays game is to arrange the Different historical events provided by the app in its order')
+    time.sleep(1)
+    print('The rules are:')
+    time.sleep(1)
+    print('1.The events will have to be arranged from start datewise')
+    time.sleep(1)
+    print('2.Each event will be assigned a number.The Events are to be numbered using the numbers.')
+    time.sleep(1)
+    print('3.The user will be asked to try again if the answer is wrong.')
+    time.sleep(1)
+    print('Lets Begin!')
+    time.sleep(1)
+    print('The events we will use are as follows:')
+    time.sleep(1)
+    print('1-The Invasion of india by Mughals')
+    time.sleep(1)
+    print('2-The crowning of king Ashoka')
+    time.sleep(1)
+    print('3-The establishment of the Harappan civilization ')
+    time.sleep(1)
+    print('4-The establishment of British Raj')
+    time.sleep(1)
+    print('5-The discovery of water on moon by Indian Scientists.')
+    time.sleep(1)
+    x = input('Please type in the correct order:- ')
+    time.sleep(1)
+    if x == '3-2-1-4-5' or x == '3, 2, 1, 4, 5' or x == '3,2,1,4,5' or x == '3 2 1 4 5':
+        print('You have ordered all the events correctly')
+        y=y+1
+    else:
+        print('Please try again')
+        time.sleep(1)
+        print(' ')
+
+
+
